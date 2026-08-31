@@ -8,7 +8,7 @@ instance DIA_Addon_Carlos_EXIT(C_INFO)
 	condition		= DIA_Addon_Carlos_EXIT_Condition;
 	information		= DIA_Addon_Carlos_EXIT_Info;
 	permanent		= TRUE;
-	description		= "Wir sehen uns.";
+	description		= "Wir sehen uns. (ENDE)";
 };
 
 func int DIA_Addon_Carlos_EXIT_Condition()
@@ -89,14 +89,14 @@ func void DIA_Addon_Carlos_HI_Info()
 func void DIA_Addon_Carlos_HI_Yes()
 {
 	AI_Output(other, self, "DIA_Addon_Carlos_HI_Yes_15_00"); //Ja, warum?
-	AI_Output(self, other, "DIA_Addon_Carlos_HI_Yes_12_01"); //(sauer) Weil ich jetzt seinen Job übernehmen muss. Hast du ganz toll gemacht! Vielen Dank!
+	AI_Output(self, other, "DIA_Addon_Carlos_HI_Yes_12_01"); //(sauer) Weil ich jetzt seinen Job ï¿½bernehmen muss. Hast du ganz toll gemacht! Vielen Dank!
 	Info_ClearChoices(DIA_Addon_Carlos_HI);
 };
 
 func void DIA_Addon_Carlos_HI_No()
 {
 	AI_Output(other, self, "DIA_Addon_Carlos_HI_No_15_00"); //Was? Ich? Nein!
-	AI_Output(self, other, "DIA_Addon_Carlos_HI_No_12_01"); //Ah! Nichts für ungut!
+	AI_Output(self, other, "DIA_Addon_Carlos_HI_No_12_01"); //Ah! Nichts fï¿½r ungut!
 	Info_ClearChoices(DIA_Addon_Carlos_HI);
 };
 
@@ -124,7 +124,7 @@ func void DIA_Addon_Carlos_Attentat_Info()
 {
 	B_Say(other, self, "$ATTENTAT_ADDON_DESCRIPTION");
 
-	AI_Output(self, other, "DIA_Addon_Carlos_Attentat_12_00"); //Nachdem der Attentäter tot war, hat Thorus mich beauftragt einen neuen Mann in's Lager zu holen.
+	AI_Output(self, other, "DIA_Addon_Carlos_Attentat_12_00"); //Nachdem der Attentï¿½ter tot war, hat Thorus mich beauftragt einen neuen Mann in's Lager zu holen.
 
 	if (Logan_Inside == TRUE)
 	{
@@ -135,7 +135,7 @@ func void DIA_Addon_Carlos_Attentat_Info()
 		AI_Output(self, other, "DIA_Addon_Carlos_Attentat_12_02"); //Und Franco hat einen neuen Kerl geschickt.
 	};
 
-	AI_Output(self, other, "DIA_Addon_Carlos_Attentat_12_03"); //Hey, ich mach nur das was Thorus mir sagt. Über das Attentat selbst weiß ich nichts.
+	AI_Output(self, other, "DIA_Addon_Carlos_Attentat_12_03"); //Hey, ich mach nur das was Thorus mir sagt. ï¿½ber das Attentat selbst weiï¿½ ich nichts.
 };
 
 // ---------------------------------------------------------------------
@@ -148,7 +148,7 @@ instance DIA_Addon_Carlos_PERM(C_INFO)
 	condition		= DIA_Addon_Carlos_PERM_Condition;
 	information		= DIA_Addon_Carlos_PERM_Info;
 	permanent		= TRUE;
-	description		= "Und wie ist es so, Anführer der Jäger zu sein?";
+	description		= "Und wie ist es so, Anfï¿½hrer der Jï¿½ger zu sein?";
 };
 
 func int DIA_Addon_Carlos_PERM_Condition()
@@ -158,7 +158,7 @@ func int DIA_Addon_Carlos_PERM_Condition()
 
 func void DIA_Addon_Carlos_PERM_Info()
 {
-	AI_Output(other, self, "DIA_Addon_Carlos_PERM_15_00"); //Und wie ist es so, Anführer der Jäger zu sein?
-	AI_Output(self, other, "DIA_Addon_Carlos_PERM_12_00"); //Lass mich bloß in Ruhe!
+	AI_Output(other, self, "DIA_Addon_Carlos_PERM_15_00"); //Und wie ist es so, Anfï¿½hrer der Jï¿½ger zu sein?
+	AI_Output(self, other, "DIA_Addon_Carlos_PERM_12_00"); //Lass mich bloï¿½ in Ruhe!
 	AI_StopProcessInfos(self);
 };

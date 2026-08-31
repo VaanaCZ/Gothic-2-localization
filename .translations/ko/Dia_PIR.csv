@@ -1547,7 +1547,7 @@
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1367_Owen.d:301","Das hab ich mir schon gedacht. Armes Schwein. Ich hätte ihm doch helfen sollen.","그럴 줄 알았어. 불쌍한 녀석. 내가 도와줬어야 했는데.","","False","DIA_Addon_Owen_MalcomDead_13_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1367_Owen.d:304","Du bist echt mutig, weißt du das?","너 정말 용감하구나, 알고 있나?","","False","DIA_Addon_Owen_MalcomDead_13_02","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1367_Owen.d:305","Ich hätte das mit dem Felsspalte nicht fertig gebracht.","난 저 바위 틈으로는 엄두도 못 냈을 거야.","","False","DIA_Addon_Owen_MalcomDead_13_03","",""
-"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1368_Malcom.d:11","Ich muss weiter.","이만 가봐야겠어.","","False","DIA_Addon_Malcom_EXIT.description","",""
+"Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1368_Malcom.d:11","Ich muss weiter. (ENDE)","이만 가봐야겠어.","","False","DIA_Addon_Malcom_EXIT.description","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1368_Malcom.d:21","Ich muss weiter.","이만 가봐야겠어.","","False","DIA_Addon_Malcom_perm_15_00","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1368_Malcom.d:25","Lass dich nicht von den Biestern fressen. Die Gegend hier ist sehr gefährlich.","괴물들한테 잡아먹히지 마라. 이 근처는 아주 위험하니까.","","False","DIA_Addon_Malcom_perm_04_01","",""
 "Scripts/Content/Story/Dialoge/DIA_Addon_PIR_1368_Malcom.d:29","Hey! Wenn du zu unserem Lager gehst kannst du Henry von mir was ausrichten.","이봐! 우리 야영지로 갈 거면 헨리에게 내 말을 좀 전해줄래.","","False","DIA_Addon_Malcom_Add_04_03","",""
